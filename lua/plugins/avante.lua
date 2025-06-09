@@ -5,6 +5,9 @@ return {
     version = false, -- Never set this to "*"
     opts = {
       provider = "copilot",
+      instructions = {
+        file = ".github/copilot-instructions.md",
+      },
     },
     build = "make",
     dependencies = {
